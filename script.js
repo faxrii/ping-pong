@@ -13,8 +13,8 @@ const ball = {
     radius: 8,
     positionX: canvas.width / 2 + 8,
     positionY: canvas.height / 2 + 8,
-    velocityX: 2,
-    velocityY: 2,
+    velocityX: 2.8,
+    velocityY: 2.8,
     color: 'white'
 }
 
@@ -47,7 +47,7 @@ const game = {
     rightScore: 0,
     turn: 0,
     topScore: 5,
-    speedIncreaseHit: 20,
+    speedIncreaseHit: 5,
 }
 
 const keyPressed = {
