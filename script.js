@@ -13,8 +13,8 @@ const ball = {
     radius: 8,
     positionX: canvas.width / 2 + 8,
     positionY: canvas.height / 2 + 8,
-    velocityX: 20,
-    velocityY: 20,
+    velocityX: 2.7,
+    velocityY: 2.7,
     color: 'white'
 }
 
