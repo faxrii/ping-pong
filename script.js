@@ -25,7 +25,7 @@ const leftPlayer = {
     positionY: canvas.height / 2 - 100 / 2,
     color: 'white',
     player: 'left',
-    speed: 5
+    speed: 4
 }
 
 const rightPlayer = {
@@ -35,7 +35,7 @@ const rightPlayer = {
     positionY: canvas.height / 2 - 100 / 2,
     color: 'white',
     player: 'right',
-    speed: 5
+    speed: 4
 }
 
 
@@ -47,7 +47,7 @@ const game = {
     rightScore: 0,
     turn: 0,
     topScore: 5,
-    speedIncreaseHit: 7,
+    speedIncreaseHit: 20,
 }
 
 const keyPressed = {
